@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header section styling here ----------------*/
+/* Header section styling here ----------------*/
+/* Header section styling here ----------------*/
+/* Header section styling here ----------------*/
+/* Header section styling here ----------------*/
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.482);
+    height: 90px;
+    width: 100%;
+    z-index: 1000;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+/* navigation ------ */
+
+.navlist{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.navlink{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    transition: .5s ease;
+}
+
+.navlink:hover,
+.navlink:focus{
+    color: rgb(199, 54, 54);
+}
+
+.logo{
+    width: 100px;
+    height: 90px;
+}
+
+.navtoggle{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    fill: white;
+    width: 30px;
+}
+
+.closeicon{
+    fill: white;
+    width: 40px;
+    display: none;
+}
+
+
+
+
+/* Hero SEction styling here -------------------- */
+/* Hero SEction styling here -------------------- */
+/* Hero SEction styling here -------------------- */
+/* Hero SEction styling here -------------------- */
+/* Hero SEction styling here -------------------- */
+/* Hero SEction styling here -------------------- */
+/* Hero SEction styling here -------------------- */
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.817),rgba(0, 0, 0, 0.849)), url(/imgs/worhsipbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero h1{
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+    line-height: .9;
+    font-weight: lighter;
+}
+
+.hero span{
+    font-size: 3vw;
+}
+
+.ctacontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.cta{
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    border: 2px solid white;
+    border-radius:  50px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.cta:hover,
+.cta:focus{
+    background-color: white;
+    color: rgb(35, 35, 35);
+}
+
+/* Celebrate styling here --------------*/
+/* Celebrate styling here --------------*/
+/* Celebrate styling here --------------*/
+/* Celebrate styling here --------------*/
+
+.celebrate{
+    height: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.celebrate h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(45, 45, 45);
+}
+
+.celebrate p{
+    font-size: 1.1rem;
+    line-height: 1.4;
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+
+
+     
+
+
+/* info section styling here-------------*/
+/* info section styling here-------------*/
+/* info section styling here-------------*/
+/* info section styling here-------------*/
+/* info section styling here-------------*/
+/* info section styling here-------------*/
+
+.info{
+    height:  400px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+ 
+     
+
+.info h2{
+    font-size: 2.3rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info h3{
+    font-size: 2rem;
+    font-weight: medium;
+    text-align: center;
+}
+
+.info span{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.infocontainer{
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    color: white;
+}
+
+.infocta{
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    border: 2px solid white;
+    border-radius:  50px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: .5s ease;
+    margin-top: 20px;
+}
+
+.infocta:hover,
+.infocta:focus{
+    background-color: white;
+    color: rgb(35, 35, 35);
+}
+
+.card{
+    height: 300px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    
+
+}
+
+.card:first-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(/imgs/nathan-mullet-pmiW630yDPE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:last-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.974),rgba(0, 0, 0, 0.989)), url(/imgs/flipboard-h5H5UyXBLBQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.948),rgba(0, 0, 0, 0.964)), url(/imgs/jack-sharp-ShCVvQbQBDk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Event section -----------------*/
+/* Event section -----------------*/
+/* Event section -----------------*/
+/* Event section -----------------*/
+/* Event section -----------------*/
+/* Event section -----------------*/
+
+
+.events{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: white;
+    background-color: transparent;
+    right:10px;
+    padding: 30px;
+    color: #ffffff !important;
+    fill: rgb(255, 255, 255) !important;
+    stroke: rgb(255, 251, 251) !important;
+}
+#one, #two, #three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#one h4, #two h4, #three h4{
+    font-size: 2.4rem;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#one  span, #two  span, #three span{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 10px;
+
+}
+
+.watchstudy{
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+#one{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.898), rgba(0, 0, 0, 0.837)), url(/imgs/REvelation\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#two{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.898), rgba(0, 0, 0, 0.837)), url(/imgs/biblestudy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#three{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.898), rgba(0, 0, 0, 0.837)), url(/imgs/dustin-humes-Grw-rlz4bg8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-scrollbar{
+    display: none !important;
+}
+
+
+/* footer styling here ------------ */
+
+footer{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+footer h4{
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+/* media quieres--------------*/
+
+
+@media (max-width: 850px) {
+    .hero h1{
+        font-size: 8vw;
+    }
+
+    .hero span{
+        font-size: 6vw;
+    }
+
+    .info{
+        height: auto;
+    }
+
+    .infocontainer{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .card{
+        height: 350px;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .navlist{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 90px;
+        right: 0;
+        width: 100%;
+        background-color: black;
+        padding: 50px;
+        gap: 30px;
+        display: flex;
+        opacity: 0;
+        transform: scale(0);
+        transform-origin: top;
+        transition: .5s ease;
+        z-index: 1000;
+        
+    }
+
+    .celebrate h2{
+        font-size: 5vw;
+        
+        line-height: 1.4;
+    }
+
+    .celebrate p{
+        font-size: 1.178rem;
+        line-height: 1.7;
+    }
+
+    .navitem{
+        width: 90%;
+        padding: 10px 20px;
+        text-align: center;
+        
+    }
+
+    .navitem:hover{
+        background-color: rgba(62, 97, 116, 0.202);
+    }
+
+
+    .open{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+    .header{
+        background-color: black;
+        
+    }
+    
+
+    .navtoggle{
+        display: flex;
+    }
+
+    .logo{
+        width: 80px;
+    }
+}
+
+@media (max-width: 500px) {
+    .ctacontainer{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cta{
+        padding: 15px 40px;
+    }
+
+    .celebrate h2{
+        font-size: 7vw;
+        width: 70%;
+        line-height: 1.4;
+    }
+
+    .celebrate p{
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+}

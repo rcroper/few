@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Baptist West</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" aria-label="click here to go to the Hompage"><img src="./imgs/Logo.svg" alt="First Baptist West Logo" class="logo"></a>
+            <nav class="nav">
+                <ul class="navlist" id="menu">
+                    <li class="navitem"><a href="#" class="navlink">Who We Are</a></li>
+                    <li class="navitem"><a href="#" class="navlink">Ministries</a></li>
+                    <li class="navitem"><a href="#" class="navlink">Events</a></li>
+                    <li class="navitem"><a href="#" class="navlink">Give</a></li>
+                    <li class="navitem"><a href="#" class="navlink">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="navtoggle"aria-label="primary menu toggle" id="navtoggle"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path></svg><svg class="closeicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.0007 10.5865L16.9504 5.63672L18.3646 7.05093L13.4149 12.0007L18.3646 16.9504L16.9504 18.3646L12.0007 13.4149L7.05093 18.3646L5.63672 16.9504L10.5865 12.0007L5.63672 7.05093L7.05093 5.63672L12.0007 10.5865Z"></path></svg></button>
+        </div>
+        
+    </header>
+    <section class="hero">
+        <h1>Love God &#183 Love People<br>
+        <span>SEE LIVES CHANGE</span></h1>
+        <div class="ctacontainer">
+            <a href="#" class="cta" aria-label="click here to view our bulletin">Bulletin</a>
+            <a href="#" class="cta" aria-label="click here to view our youtube page">Watch Online</a>
+        </div>
+        <div class="shapedividers_com-4936"></div>
+    </section>
+    <section class="celebrate">
+        <h2>We Celebrate The Creator</h2>
+        <p>At First Baptist West we enjoy getting together to celebrate God through Praise and Worship. We love to sing both contemporary praise songs and great old hymns of faith. We strive to include music that speaks to people of all ages and musical backgrounds. Our worship services are designed to help worshipers experience a God who loves them unconditionally and desires to have a personal relationship with them.</p>
+    </section>
+    <section class="info">
+        
+        <div class="infocontainer">
+            <div class="card">
+                <h3>Service Times</h3>
+                <span>8:00 am | 11:00am</span>
+                <a href="#" class="infocta" aria-label="Click here to learn more about our Service">More info</a>
+            </div>
+            <div class="card">
+                <h3>Small Groups</h3>
+                <span>9:45 am</span>
+                <a href="#" class="infocta" aria-label="Click here to learn more about our Small Groups">More info</a>
+            </div>
+            <div class="card">
+                <h3>Livestream</h3>
+                <span>11:00 am</span>
+                <a href="#" class="infocta" aria-label="Click here to watch our livestream">Watch Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="events">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide" id="one">
+                    <h4>Revelation Study</h4>
+                    <span>Wed @ 6:00pm </span>
+                    <a href="#" aria-label="Click to watch this study live or catch up on past studies" class="watchstudy">Watch live</a>
+              </div>
+              <div class="swiper-slide" id="two">
+                <h4>Discipleship Study</h4>
+                <span>Sunday @ 5:00pm </span>
+                <a href="#" aria-label="Click to learn more about this Study" class="watchstudy">Learn More</a>
+              </div>
+              <div class="swiper-slide" id="three">
+                <h4>Awana</h4>
+                <span>Sunday @ 5:00pm </span>
+                <a href="#" aria-label="Click to learn more about this Study" class="watchstudy">Learn More</a>
+              </div>
+              
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+    </section>
+    <footer>
+        <h4> &copy First Baptist West 2023</h4>
+    </footer>
+    <script>
+        const menu = document.querySelector('#menu');
+        const navtoggle = document.querySelector ('#navtoggle');
+        const icon = document.querySelector('.icon');
+        const close = document.querySelector('.closeicon');
+
+        navtoggle.addEventListener ('click', () => {
+            menu.classList.toggle("open");
+            if (menu.classList.contains("open")) {
+                    icon.style.display = "none";
+                    close.style.display = "block";
+            }
+            else{
+                icon.style.display = "block";
+                close.style.display = "none";
+                
+            }
+            
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  effect: 'fade',
+  speed: 1000,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+    </script>
+</body>
+</html>
