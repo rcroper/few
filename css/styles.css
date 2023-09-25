@@ -96,7 +96,7 @@
 /* Hero SEction styling here -------------------- */
 
 .hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.817),rgba(0, 0, 0, 0.849)), url(./imgs/worhsipbg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.817),rgba(0, 0, 0, 0.849)), url(../imgs/worhsipbg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,21 +275,21 @@
 }
 
 .card:first-child {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(./imgs/nathan-mullet-pmiW630yDPE-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(../imgs/nathan-mullet-pmiW630yDPE-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:last-child {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.974),rgba(0, 0, 0, 0.989)), url(./imgs/flipboard-h5H5UyXBLBQ-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.974),rgba(0, 0, 0, 0.989)), url(../imgs/flipboard-h5H5UyXBLBQ-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(2) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.948),rgba(0, 0, 0, 0.964)), url(./imgs/jack-sharp-ShCVvQbQBDk-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.948),rgba(0, 0, 0, 0.964)), url(../imgs/jack-sharp-ShCVvQbQBDk-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -374,14 +374,14 @@
     text-align: center;
 }
 #one{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.898), rgba(0, 0, 0, 0.837)), url(./imgs/REvelation\ bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.898), rgba(0, 0, 0, 0.837)), url(../imgs/REvelation\ bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #two{
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.898), rgba(0, 0, 0, 0.837)), url(./imgs/biblestudy.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.898), rgba(0, 0, 0, 0.837)), url(../imgs/biblestudy.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -389,7 +389,7 @@
 
 #three{
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.898), rgba(0, 0, 0, 0.837)), url(./imgs/dustin-humes-Grw-rlz4bg8-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.898), rgba(0, 0, 0, 0.837)), url(../imgs/dustin-humes-Grw-rlz4bg8-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
